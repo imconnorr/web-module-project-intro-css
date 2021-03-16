@@ -46,11 +46,114 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-nav ul{
-    display:inline-block;
-    list-style-type: none;
-    text-align: center;
-    padding: 0px;
+h1{
+	font-family: 'Chelsea Market', cursive;
+	font-size: 4rem;
+	padding-right:16vw;
+}
+
+.first {
+	border-radius:50%;
+	width:25rem;
+	height:25rem;
+	padding-left:10vw;
+}
+
+h1,p{ 
+	display: block;
+	text-align: right;
+}
+
+body{
+	font-family: 'Roboto Mono', monospace;
+}
+
+nav{
+	text-align: center;
+
+}
+.one:hover{
+	background-color: pink;
+}
+
+.two:hover{
+	background-color: pink;
+}
+
+.three:hover{
+	background-color: pink;
+}
+
+
+.one {
+	background-color:#FF764E;
+	color: white;
+	padding: 2rem;
+	text-align: center;
+	display:inline-block;
+	margin: 5%;
+	border-radius:1rem;
+
+}
+.two {
+	background-color:#5ED3EB;
+	color: white;
+	padding: 2rem;
+	text-align: center;
+	display:inline-block;
+	margin: 5%;
+	border-radius:1rem;
+}
+
+.three {
+	background-color:#FFCD69;
+	color: white;
+	padding: 2rem;
+	text-align: center;
+	display:inline-block;
+	margin: 5%;
+	border-radius:1rem;
+}
+
+p{
+	margin:8vh;
+	font-size:1rem;
+	padding-bottom: 5vh;
+	width:30rem;
+}
+.main {
+	background-color:#DDB9A3;
+	text-align:center;
+	border:none;
+	width:60vw;
+	height:15vh;
+	margin: auto;
+	padding:4%;
+	font-size: 1.75rem;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
 
+.text{
+	font-size:1rem;
+	height:10vh;
+	width: 10vw;
+	margin:auto;
+	padding-bottom:2rem;
+}
+img{
+	 display: block;
+	 padding:4rem;
+	 margin:auto;
+	 width:10rem;
+	 height:10rem;
+}
+.last{
+	height: auto;
+	max-width: 100%;
+}
+
+footer{
+	bottom:0%;
+	padding:0%;
+}
